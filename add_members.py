@@ -5,7 +5,7 @@ if conn is not None:
     try:
         cursor = conn.cursor()
 
-        new_member = ("Jack Johnson", "5", "29")
+        new_member = ("Sarah Jane", "8", "18")
 
         query = "INSERT INTO members (name, id, age) VALUES (%s, %s, %s)"
 
@@ -16,3 +16,4 @@ if conn is not None:
     finally:
         cursor.close()
         conn.close()
+0
