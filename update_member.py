@@ -5,7 +5,7 @@ if conn is not None:
     try:
         cursor = conn.cursor()
 
-        update_member = ("30", "5")
+        update_member = ("35", "1")
 
         query = "UPDATE members set age = %s where id = %s"
 
